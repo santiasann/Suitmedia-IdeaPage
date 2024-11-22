@@ -16,7 +16,7 @@ class IdeaController extends Controller
         $query = Post::query();
         $query->orderBy('created_at', $sort === 'oldest' ? 'asc' : 'desc');
         $posts=$query->paginate($perPage);
-        return view('idea', compact('banner', 'posts'));
+        return view('index', compact('banner', 'posts'));
         return response()->json([
             'data' => $posts,
             'links' => $posts->links(),
