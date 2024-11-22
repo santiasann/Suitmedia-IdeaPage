@@ -1,0 +1,2 @@
+<link rel="stylesheet" href="<?php echo e(asset('bootstrap/css/bootstrap.min.css')); ?>">
+<link rel="stylesheet" href="<?php echo e(asset('app.css')); ?>"><?php /**PATH C:\xampp1\htdocs\suitmediaIntern\resources\views/custom/bootstrap.blade.php ENDPATH**/ ?>
